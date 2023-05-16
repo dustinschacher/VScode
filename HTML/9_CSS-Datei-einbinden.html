@@ -1,0 +1,53 @@
+<!-- CSS wird benutzt um Layouts auf einer Website zu formatieren 
+Man kann mit CSS Dinge wie Color,Font,Size of Text, Spacing between Elements etc. ändern-->
+
+
+<!-- Inline CSS -->
+<!-- Wird benutzt um bei einem einzelnen HTML Element etwas zu ändern -->
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+
+<!-- Internal CSS -->
+<!-- Wird benutzt um eine ganze HTML Seite zu ändern -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+<!-- External CSS -->
+<!-- Wird benutzt um bei mehreren HTML Seiten etwas zu ändern -->
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+<!-- Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border -->
